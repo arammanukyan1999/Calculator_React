@@ -1,0 +1,42 @@
+.App{
+  width: 50vw;
+  border: 1px solid indigo;
+  border-radius: 5px;
+  padding: 15px;
+  background: linear-gradient(darkviolet, indigo);
+ 
+}
+.display{
+  height: 3vw;
+  font-size: 2vw;
+  background: white;
+  color: black;
+  text-align: end;
+}
+.action{
+  border-radius: 5px;
+}
+.action span {
+  pointer-events: none;
+}
+.actions{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.buttons  button{
+  border: none;
+  color:indigo;
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+.numbers{
+ display: flex;
+ flex-basis: 38%;
+ flex-wrap: wrap;
+
+}
+.buttons{
+  display: flex;
+}
